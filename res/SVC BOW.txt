@@ -1,0 +1,16 @@
+SVC BOW
+accuracy_score: 0.50625
+precision_score: 1.0
+recall_score: 0.011808265786050235
+f1_score: 0.023340915834239934
+confusion_matrix: [[10007     0]
+ [ 9875   118]]
+classification_report
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67     10007
+           1       1.00      0.01      0.02      9993
+
+    accuracy                           0.51     20000
+   macro avg       0.75      0.51      0.35     20000
+weighted avg       0.75      0.51      0.35     20000

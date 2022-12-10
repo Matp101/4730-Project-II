@@ -1,0 +1,16 @@
+Perceptron BOW
+accuracy_score: 0.7335
+precision_score: 0.7472166260205705
+recall_score: 0.7051936355448815
+f1_score: 0.7255971993410215
+confusion_matrix: [[7623 2384]
+ [2946 7047]]
+classification_report
+              precision    recall  f1-score   support
+
+           0       0.72      0.76      0.74     10007
+           1       0.75      0.71      0.73      9993
+
+    accuracy                           0.73     20000
+   macro avg       0.73      0.73      0.73     20000
+weighted avg       0.73      0.73      0.73     20000

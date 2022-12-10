@@ -1,0 +1,16 @@
+LinearRegression BOW
+accuracy_score: 0.62695
+precision_score: 0.8640023001725129
+recall_score: 0.3007104973481437
+f1_score: 0.44614356766387053
+confusion_matrix: [[9534  473]
+ [6988 3005]]
+classification_report
+              precision    recall  f1-score   support
+
+           0       0.58      0.95      0.72     10007
+           1       0.86      0.30      0.45      9993
+
+    accuracy                           0.63     20000
+   macro avg       0.72      0.63      0.58     20000
+weighted avg       0.72      0.63      0.58     20000
