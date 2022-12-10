@@ -1,0 +1,41 @@
+(50000, 2)
+positive    25000
+negative    25000
+Name: sentiment, dtype: int64
+2022-12-10 06:03:22.081141: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-10 06:03:31.002480: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ embedding (Embedding)       (None, 1942, 128)         256000    
+                                                                 
+ lstm (LSTM)                 (None, 196)               254800    
+                                                                 
+ dense (Dense)               (None, 2)                 394       
+                                                                 
+=================================================================
+Total params: 511,194
+Trainable params: 511,194
+Non-trainable params: 0
+_________________________________________________________________
+None
+2022-12-10 06:03:32.836502: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 233040000 exceeds 10% of free system memory.
+Epoch 1/7
+938/938 - 2840s - loss: 0.4434 - accuracy: 0.7896 - 2840s/epoch - 3s/step
+Epoch 2/7
+938/938 - 2717s - loss: 0.3169 - accuracy: 0.8688 - 2717s/epoch - 3s/step
+Epoch 3/7
+938/938 - 2696s - loss: 0.3017 - accuracy: 0.8750 - 2696s/epoch - 3s/step
+Epoch 4/7
+938/938 - 2678s - loss: 0.2592 - accuracy: 0.8976 - 2678s/epoch - 3s/step
+Epoch 5/7
+938/938 - 2676s - loss: 0.2299 - accuracy: 0.9095 - 2676s/epoch - 3s/step
+Epoch 6/7
+938/938 - 2665s - loss: 0.2581 - accuracy: 0.8975 - 2665s/epoch - 3s/step
+Epoch 7/7
+938/938 - 2654s - loss: 0.2066 - accuracy: 0.9200 - 2654s/epoch - 3s/step
+625/625 - 279s - loss: 0.2883 - accuracy: 0.8816 - 279s/epoch - 446ms/step
+score: 0.29
