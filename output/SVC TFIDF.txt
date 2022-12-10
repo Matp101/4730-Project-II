@@ -1,0 +1,16 @@
+SVC TFIDF
+accuracy_score: 0.73625
+precision_score: 0.7329186413902053
+recall_score: 0.7428199739817872
+f1_score: 0.7378360916455444
+confusion_matrix: [[7302 2705]
+ [2570 7423]]
+classification_report
+              precision    recall  f1-score   support
+
+           0       0.74      0.73      0.73     10007
+           1       0.73      0.74      0.74      9993
+
+    accuracy                           0.74     20000
+   macro avg       0.74      0.74      0.74     20000
+weighted avg       0.74      0.74      0.74     20000

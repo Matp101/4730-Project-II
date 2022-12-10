@@ -1,0 +1,16 @@
+Perceptron TFIDF
+accuracy_score: 0.73575
+precision_score: 0.7500531123858084
+recall_score: 0.706594616231362
+f1_score: 0.7276755809759365
+confusion_matrix: [[7654 2353]
+ [2932 7061]]
+classification_report
+              precision    recall  f1-score   support
+
+           0       0.72      0.76      0.74     10007
+           1       0.75      0.71      0.73      9993
+
+    accuracy                           0.74     20000
+   macro avg       0.74      0.74      0.74     20000
+weighted avg       0.74      0.74      0.74     20000

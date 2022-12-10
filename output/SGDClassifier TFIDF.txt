@@ -1,0 +1,16 @@
+SGDClassifier TFIDF
+accuracy_score: 0.55005
+precision_score: 0.5262962962962963
+recall_score: 0.9953967777444211
+f1_score: 0.6885404769321288
+confusion_matrix: [[1054 8953]
+ [  46 9947]]
+classification_report
+              precision    recall  f1-score   support
+
+           0       0.96      0.11      0.19     10007
+           1       0.53      1.00      0.69      9993
+
+    accuracy                           0.55     20000
+   macro avg       0.74      0.55      0.44     20000
+weighted avg       0.74      0.55      0.44     20000

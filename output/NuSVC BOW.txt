@@ -1,0 +1,16 @@
+NuSVC BOW
+accuracy_score: 0.723
+precision_score: 0.7368365067546006
+recall_score: 0.6931852296607626
+f1_score: 0.7143446426729916
+confusion_matrix: [[7533 2474]
+ [3066 6927]]
+classification_report
+              precision    recall  f1-score   support
+
+           0       0.71      0.75      0.73     10007
+           1       0.74      0.69      0.71      9993
+
+    accuracy                           0.72     20000
+   macro avg       0.72      0.72      0.72     20000
+weighted avg       0.72      0.72      0.72     20000

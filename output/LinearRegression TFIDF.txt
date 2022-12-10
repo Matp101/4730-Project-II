@@ -1,0 +1,16 @@
+LinearRegression TFIDF
+accuracy_score: 0.7365
+precision_score: 0.7382706084148926
+recall_score: 0.7322125487841489
+f1_score: 0.7352290996784565
+confusion_matrix: [[7413 2594]
+ [2676 7317]]
+classification_report
+              precision    recall  f1-score   support
+
+           0       0.73      0.74      0.74     10007
+           1       0.74      0.73      0.74      9993
+
+    accuracy                           0.74     20000
+   macro avg       0.74      0.74      0.74     20000
+weighted avg       0.74      0.74      0.74     20000

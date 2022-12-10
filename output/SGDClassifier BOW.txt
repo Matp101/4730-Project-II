@@ -1,0 +1,16 @@
+SGDClassifier BOW
+accuracy_score: 0.55105
+precision_score: 0.9478798586572438
+recall_score: 0.10737516261382968
+f1_score: 0.1928988764044944
+confusion_matrix: [[9948   59]
+ [8920 1073]]
+classification_report
+              precision    recall  f1-score   support
+
+           0       0.53      0.99      0.69     10007
+           1       0.95      0.11      0.19      9993
+
+    accuracy                           0.55     20000
+   macro avg       0.74      0.55      0.44     20000
+weighted avg       0.74      0.55      0.44     20000
